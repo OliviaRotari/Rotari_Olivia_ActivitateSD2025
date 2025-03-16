@@ -127,6 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Laborator02_Vectori_Suplimentar.c" />
+    <ClCompile Include="Laborator_1_ functii_si_crearea_structurii_Telefon_suplimentar.c" />
     <ClCompile Include="Seminar01.c" />
     <ClCompile Include="Seminar2.c" />
     <ClCompile Include="Seminar3.c" />

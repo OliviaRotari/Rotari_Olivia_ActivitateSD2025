@@ -24,5 +24,11 @@
     <ClCompile Include="Seminar3.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Laborator_1_ functii_si_crearea_structurii_Telefon_suplimentar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Laborator02_Vectori_Suplimentar.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
