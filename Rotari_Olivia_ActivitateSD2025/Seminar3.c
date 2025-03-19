@@ -1,7 +1,4 @@
 //
-//
-//
-//
 //#define _CRT_SECURE_NO_WARNINGS
 //#include <stdio.h>
 //#include <stdlib.h>
@@ -103,7 +100,7 @@
 //
 //}
 //
-////temaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+////tema
 //
 //void dezalocareVectorMasini(Masina** vector, int* nrMasini) {
 //	//este dezalocat intreg vectorul de masini
