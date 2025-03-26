@@ -25,7 +25,7 @@ typedef struct Nod Nod;
 struct listaDubla {
 	Nod* head;
 	Nod* tail;
-	int nrNoduri; //nu-i obligatoriu dar e mi?to s? ?tii na
+	int nrNoduri; 
 };
 typedef struct listaDubla listaDubla;
 
