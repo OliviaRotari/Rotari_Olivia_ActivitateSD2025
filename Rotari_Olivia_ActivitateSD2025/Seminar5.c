@@ -1,4 +1,4 @@
-
+#define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -25,7 +25,7 @@ typedef struct Nod Nod;
 struct listaDubla {
 	Nod* head;
 	Nod* tail;
-	int nrNoduri; 
+	int nrNoduri; //nu-i obligatoriu dar e mi?to s? ?tii na
 };
 typedef struct listaDubla listaDubla;
 
@@ -178,7 +178,7 @@ char* getNumeSoferMasinaScumpa(listaDubla lista) {
 
 int main() {
 	listaDubla lista;
-	lista = citireLDMasiniDinFisier("masini.txt");
+	lista = citireLDMasiniDinFisier("masini1.txt");
 	printf("\nMasinile de la cap la coada\n\n");
 	afisareListaMasiniDeLaFinal(lista);
 	printf("\nMasinile de la coada la cap\n\n");
