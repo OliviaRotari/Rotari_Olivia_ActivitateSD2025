@@ -64,21 +64,20 @@
 //	}
 //}
 //
-//void adaugaMasinaInLista(Nod* *cap, Masina masinaNoua) {
-//	//adauga la final in lista primita o noua masina pe care o primim ca parametru
+//
+//void adaugaMasinaInLista(Nod** cap, Masina masinaNoua) {
 //	Nod* nou = (Nod*)malloc(sizeof(Nod));
-//	nou->info =masinaNoua;
+//	nou->info = masinaNoua;
 //	nou->next = NULL;
 //	if (*cap) {
-//		Nod* p = *cap;
+//		Nod* p = (*cap);
 //		while (p->next) {
 //			p = p->next;
 //		}
 //		p->next = nou;
 //	}
-//	else
-//	{
-//		*cap = nou;
+//	else {
+//		(*cap) = nou;
 //	}
 //}
 //
@@ -142,9 +141,6 @@
 //}
 //
 //void stergeMasiniDinSeria(Nod** cap, char serieCautata) {
-//	//sterge toate masinile din lista care au seria primita ca parametru.
-//	//tratati situatia ca masina se afla si pe prima pozitie, si pe ultima pozitie
-//
 //	while ((*cap) && (*cap)->info.serie == serieCautata) {
 //		Nod* aux = *cap;
 //		(*cap) = aux->next;
@@ -159,8 +155,7 @@
 //	if ((*cap)) {
 //		Nod* p = *cap;
 //		while (p) {
-//			while (p && p->next && p->next->info.serie != serieCautata)
-//			{
+//			while (p->next && p->next->info.serie != serieCautata) {
 //				p = p->next;
 //			}
 //			if (p->next) {
@@ -174,11 +169,14 @@
 //				}
 //				free(aux);
 //			}
-//			else { p = NULL;
+//			else {
+//				p = NULL;
 //			}
 //		}
-//	}				
+//	}
+//
 //}
+//
 //
 //float calculeazaPretulMasinilorUnuiSofer(Nod* cap, char* numeSofer) {
 //	//calculeaza pretul tuturor masinilor unui sofer
