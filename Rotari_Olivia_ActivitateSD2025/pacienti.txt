@@ -1,0 +1,5 @@
+1,Ionescu Irina,30,5
+2,Vacarescu Andrei,65,10
+3,Popescu Ana,40,3
+4,Stan Luca,55,9
+5,Grosu Paul,22,7
